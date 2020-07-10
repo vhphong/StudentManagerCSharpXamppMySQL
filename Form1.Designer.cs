@@ -57,7 +57,7 @@
 			// 
 			this.label1.AutoSize = true;
 			this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label1.Location = new System.Drawing.Point(258, 9);
+			this.label1.Location = new System.Drawing.Point(289, 22);
 			this.label1.Name = "label1";
 			this.label1.Size = new System.Drawing.Size(305, 42);
 			this.label1.TabIndex = 0;
@@ -67,7 +67,7 @@
 			// 
 			this.label2.AutoSize = true;
 			this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label2.Location = new System.Drawing.Point(188, 68);
+			this.label2.Location = new System.Drawing.Point(224, 81);
 			this.label2.Name = "label2";
 			this.label2.Size = new System.Drawing.Size(434, 32);
 			this.label2.TabIndex = 0;
@@ -76,7 +76,7 @@
 			// label3
 			// 
 			this.label3.AutoSize = true;
-			this.label3.Location = new System.Drawing.Point(149, 135);
+			this.label3.Location = new System.Drawing.Point(136, 148);
 			this.label3.Name = "label3";
 			this.label3.Size = new System.Drawing.Size(39, 24);
 			this.label3.TabIndex = 1;
@@ -84,7 +84,8 @@
 			// 
 			// txtSID
 			// 
-			this.txtSID.Location = new System.Drawing.Point(291, 135);
+			this.txtSID.Enabled = false;
+			this.txtSID.Location = new System.Drawing.Point(278, 148);
 			this.txtSID.Name = "txtSID";
 			this.txtSID.Size = new System.Drawing.Size(468, 28);
 			this.txtSID.TabIndex = 0;
@@ -92,7 +93,7 @@
 			// label4
 			// 
 			this.label4.AutoSize = true;
-			this.label4.Location = new System.Drawing.Point(149, 203);
+			this.label4.Location = new System.Drawing.Point(136, 216);
 			this.label4.Name = "label4";
 			this.label4.Size = new System.Drawing.Size(99, 24);
 			this.label4.TabIndex = 1;
@@ -100,7 +101,7 @@
 			// 
 			// txtLName
 			// 
-			this.txtLName.Location = new System.Drawing.Point(291, 203);
+			this.txtLName.Location = new System.Drawing.Point(278, 216);
 			this.txtLName.Name = "txtLName";
 			this.txtLName.Size = new System.Drawing.Size(468, 28);
 			this.txtLName.TabIndex = 2;
@@ -108,7 +109,7 @@
 			// label5
 			// 
 			this.label5.AutoSize = true;
-			this.label5.Location = new System.Drawing.Point(149, 237);
+			this.label5.Location = new System.Drawing.Point(136, 250);
 			this.label5.Name = "label5";
 			this.label5.Size = new System.Drawing.Size(135, 24);
 			this.label5.TabIndex = 1;
@@ -116,7 +117,7 @@
 			// 
 			// txtSSN
 			// 
-			this.txtSSN.Location = new System.Drawing.Point(291, 237);
+			this.txtSSN.Location = new System.Drawing.Point(278, 250);
 			this.txtSSN.Name = "txtSSN";
 			this.txtSSN.Size = new System.Drawing.Size(468, 28);
 			this.txtSSN.TabIndex = 3;
@@ -124,7 +125,7 @@
 			// label6
 			// 
 			this.label6.AutoSize = true;
-			this.label6.Location = new System.Drawing.Point(149, 169);
+			this.label6.Location = new System.Drawing.Point(136, 182);
 			this.label6.Name = "label6";
 			this.label6.Size = new System.Drawing.Size(101, 24);
 			this.label6.TabIndex = 1;
@@ -132,7 +133,7 @@
 			// 
 			// txtFName
 			// 
-			this.txtFName.Location = new System.Drawing.Point(291, 169);
+			this.txtFName.Location = new System.Drawing.Point(278, 182);
 			this.txtFName.Name = "txtFName";
 			this.txtFName.Size = new System.Drawing.Size(468, 28);
 			this.txtFName.TabIndex = 1;
@@ -140,7 +141,7 @@
 			// label7
 			// 
 			this.label7.AutoSize = true;
-			this.label7.Location = new System.Drawing.Point(149, 271);
+			this.label7.Location = new System.Drawing.Point(136, 284);
 			this.label7.Name = "label7";
 			this.label7.Size = new System.Drawing.Size(109, 24);
 			this.label7.TabIndex = 1;
@@ -148,7 +149,7 @@
 			// 
 			// txtDOB
 			// 
-			this.txtDOB.Location = new System.Drawing.Point(291, 271);
+			this.txtDOB.Location = new System.Drawing.Point(278, 284);
 			this.txtDOB.Name = "txtDOB";
 			this.txtDOB.Size = new System.Drawing.Size(468, 28);
 			this.txtDOB.TabIndex = 4;
@@ -156,7 +157,7 @@
 			// label8
 			// 
 			this.label8.AutoSize = true;
-			this.label8.Location = new System.Drawing.Point(149, 339);
+			this.label8.Location = new System.Drawing.Point(136, 352);
 			this.label8.Name = "label8";
 			this.label8.Size = new System.Drawing.Size(54, 24);
 			this.label8.TabIndex = 1;
@@ -164,7 +165,7 @@
 			// 
 			// txtRace
 			// 
-			this.txtRace.Location = new System.Drawing.Point(291, 339);
+			this.txtRace.Location = new System.Drawing.Point(278, 352);
 			this.txtRace.Name = "txtRace";
 			this.txtRace.Size = new System.Drawing.Size(468, 28);
 			this.txtRace.TabIndex = 6;
@@ -172,7 +173,7 @@
 			// label9
 			// 
 			this.label9.AutoSize = true;
-			this.label9.Location = new System.Drawing.Point(149, 305);
+			this.label9.Location = new System.Drawing.Point(136, 318);
 			this.label9.Name = "label9";
 			this.label9.Size = new System.Drawing.Size(74, 24);
 			this.label9.TabIndex = 1;
@@ -180,7 +181,7 @@
 			// 
 			// txtGender
 			// 
-			this.txtGender.Location = new System.Drawing.Point(291, 305);
+			this.txtGender.Location = new System.Drawing.Point(278, 318);
 			this.txtGender.Name = "txtGender";
 			this.txtGender.Size = new System.Drawing.Size(468, 28);
 			this.txtGender.TabIndex = 5;
@@ -188,7 +189,7 @@
 			// label10
 			// 
 			this.label10.AutoSize = true;
-			this.label10.Location = new System.Drawing.Point(149, 373);
+			this.label10.Location = new System.Drawing.Point(136, 386);
 			this.label10.Name = "label10";
 			this.label10.Size = new System.Drawing.Size(62, 24);
 			this.label10.TabIndex = 1;
@@ -196,7 +197,7 @@
 			// 
 			// txtAvatar
 			// 
-			this.txtAvatar.Location = new System.Drawing.Point(291, 373);
+			this.txtAvatar.Location = new System.Drawing.Point(278, 386);
 			this.txtAvatar.Name = "txtAvatar";
 			this.txtAvatar.Size = new System.Drawing.Size(468, 28);
 			this.txtAvatar.TabIndex = 7;
@@ -204,7 +205,7 @@
 			// label11
 			// 
 			this.label11.AutoSize = true;
-			this.label11.Location = new System.Drawing.Point(149, 407);
+			this.label11.Location = new System.Drawing.Point(136, 420);
 			this.label11.Name = "label11";
 			this.label11.Size = new System.Drawing.Size(117, 24);
 			this.label11.TabIndex = 1;
@@ -212,16 +213,16 @@
 			// 
 			// txtSubmissions
 			// 
-			this.txtSubmissions.Location = new System.Drawing.Point(291, 407);
+			this.txtSubmissions.Location = new System.Drawing.Point(278, 420);
 			this.txtSubmissions.Name = "txtSubmissions";
 			this.txtSubmissions.Size = new System.Drawing.Size(468, 28);
 			this.txtSubmissions.TabIndex = 8;
 			// 
 			// btnInsert
 			// 
-			this.btnInsert.Location = new System.Drawing.Point(153, 462);
+			this.btnInsert.Location = new System.Drawing.Point(140, 475);
 			this.btnInsert.Name = "btnInsert";
-			this.btnInsert.Size = new System.Drawing.Size(180, 60);
+			this.btnInsert.Size = new System.Drawing.Size(178, 60);
 			this.btnInsert.TabIndex = 9;
 			this.btnInsert.Text = "INSERT";
 			this.btnInsert.UseVisualStyleBackColor = true;
@@ -229,9 +230,9 @@
 			// 
 			// btnViewRecords
 			// 
-			this.btnViewRecords.Location = new System.Drawing.Point(366, 462);
+			this.btnViewRecords.Location = new System.Drawing.Point(354, 475);
 			this.btnViewRecords.Name = "btnViewRecords";
-			this.btnViewRecords.Size = new System.Drawing.Size(180, 60);
+			this.btnViewRecords.Size = new System.Drawing.Size(178, 60);
 			this.btnViewRecords.TabIndex = 10;
 			this.btnViewRecords.Text = "VIEW RECORDS";
 			this.btnViewRecords.UseVisualStyleBackColor = true;
@@ -239,13 +240,13 @@
 			// 
 			// btnExit
 			// 
-			this.btnExit.Location = new System.Drawing.Point(579, 462);
+			this.btnExit.Location = new System.Drawing.Point(568, 475);
 			this.btnExit.Name = "btnExit";
-			this.btnExit.Size = new System.Drawing.Size(180, 60);
-			this.btnExit.TabIndex = 10;
+			this.btnExit.Size = new System.Drawing.Size(178, 60);
+			this.btnExit.TabIndex = 11;
 			this.btnExit.Text = "EXIT";
 			this.btnExit.UseVisualStyleBackColor = true;
-			this.btnExit.Click += new System.EventHandler(this.btnViewRecords_Click);
+			this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
 			// 
 			// FormUI
 			// 
