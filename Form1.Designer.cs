@@ -51,19 +51,13 @@
 			this.btnInsert = new System.Windows.Forms.Button();
 			this.btnViewRecords = new System.Windows.Forms.Button();
 			this.btnExit = new System.Windows.Forms.Button();
-			this.lvStdRecords = new System.Windows.Forms.ListView();
-			this.columnHeader1 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-			this.columnHeader2 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-			this.columnHeader3 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-			this.columnHeader4 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-			this.columnHeader5 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
 			this.SuspendLayout();
 			// 
 			// label1
 			// 
 			this.label1.AutoSize = true;
 			this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label1.Location = new System.Drawing.Point(494, 22);
+			this.label1.Location = new System.Drawing.Point(228, 23);
 			this.label1.Name = "label1";
 			this.label1.Size = new System.Drawing.Size(305, 42);
 			this.label1.TabIndex = 0;
@@ -73,7 +67,7 @@
 			// 
 			this.label2.AutoSize = true;
 			this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label2.Location = new System.Drawing.Point(429, 81);
+			this.label2.Location = new System.Drawing.Point(163, 82);
 			this.label2.Name = "label2";
 			this.label2.Size = new System.Drawing.Size(434, 32);
 			this.label2.TabIndex = 0;
@@ -254,31 +248,11 @@
 			this.btnExit.UseVisualStyleBackColor = true;
 			this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
 			// 
-			// lvStdRecords
-			// 
-			this.lvStdRecords.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
-            this.columnHeader1,
-            this.columnHeader2,
-            this.columnHeader3,
-            this.columnHeader4,
-            this.columnHeader5});
-			this.lvStdRecords.HideSelection = false;
-			this.lvStdRecords.Location = new System.Drawing.Point(633, 160);
-			this.lvStdRecords.Name = "lvStdRecords";
-			this.lvStdRecords.Size = new System.Drawing.Size(648, 387);
-			this.lvStdRecords.TabIndex = 12;
-			this.lvStdRecords.UseCompatibleStateImageBehavior = false;
-			// 
-			// columnHeader1
-			// 
-			this.columnHeader1.Text = "SID";
-			// 
 			// FormUI
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 22F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-			this.ClientSize = new System.Drawing.Size(1293, 591);
-			this.Controls.Add(this.lvStdRecords);
+			this.ClientSize = new System.Drawing.Size(654, 572);
 			this.Controls.Add(this.btnExit);
 			this.Controls.Add(this.btnViewRecords);
 			this.Controls.Add(this.btnInsert);
@@ -339,12 +313,6 @@
 		private System.Windows.Forms.Button btnInsert;
 		private System.Windows.Forms.Button btnViewRecords;
 		private System.Windows.Forms.Button btnExit;
-		private System.Windows.Forms.ListView lvStdRecords;
-		private System.Windows.Forms.ColumnHeader columnHeader1;
-		private System.Windows.Forms.ColumnHeader columnHeader2;
-		private System.Windows.Forms.ColumnHeader columnHeader3;
-		private System.Windows.Forms.ColumnHeader columnHeader4;
-		private System.Windows.Forms.ColumnHeader columnHeader5;
 	}
 }
 

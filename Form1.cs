@@ -37,10 +37,11 @@ namespace StudentManagerCSharpXamppMySQL
 
 		private void btnViewRecords_Click(object sender, EventArgs e)
 		{
-			lvStdRecords.View = View.Details;
-			lvStdRecords.Columns.Add("SID");    // -2 for auto-size the column
+			// view students data in a different window
+			ViewStudentInfoListView();
 
-			ViewStudentInfo();
+			// View students data in console lines
+			// ViewStudentInfo();
 		}
 
 		private void btnExit_Click(object sender, EventArgs e)
@@ -118,6 +119,11 @@ namespace StudentManagerCSharpXamppMySQL
 			{
 				MessageBox.Show(ex.Message);
 			}
+		}
+
+		private void ViewStudentInfoListView()
+		{
+
 		}
 	}
 }
