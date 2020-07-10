@@ -105,10 +105,7 @@ namespace StudentManagerCSharpXamppMySQL
 										  myReader.GetString(7) + " - " +
 										  myReader.GetString(8) + " - " 
 										 );
-						// Example to save in the listView1 :
-						//string[] row = {myReader.GetString(0), myReader.GetString(1), myReader.GetString(2), myReader.GetString(3), myReader.GetString(4), myReader.GetString(5), myReader.GetString(6), myReader.GetString(7), myReader.GetString(8), myReader.GetString(9)};
-						//var listViewItem = new ListViewItem(row);
-						//lvStdRecords.Items.Add(listViewItem);
+
 					}
 				}
 				else
